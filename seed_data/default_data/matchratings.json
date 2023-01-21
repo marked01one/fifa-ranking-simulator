@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "Type": "Friendlies - Outside FIFA Calendar",
+    "Coefficient": 5
+  },
+  {
+    "Id": 2,
+    "Type": "Friendlies - During FIFA Calendar",
+    "Coefficient": 10
+  },
+  {
+    "Id": 3,
+    "Type": "Nations League - Group Stage",
+    "Coefficient": 15
+  },
+  {
+    "Id": 4,
+    "Type": "Nations League - Playoffs & Final",
+    "Coefficient": 25
+  },
+  {
+    "Id": 5,
+    "Type": "World Cup & Confederation Qualifiers",
+    "Coefficient": 25
+  },
+  {
+    "Id": 6,
+    "Type": "Confederation Cups - Before QF",
+    "Coefficient": 35
+  },
+  {
+    "Id": 7,
+    "Type": "Confederation Cups - QF Onward",
+    "Coefficient": 40
+  },
+  {
+    "Id": 8,
+    "Type": "World Cup - Before QF",
+    "Coefficient": 50
+  },
+  {
+    "Id": 9,
+    "Type": "World Cup - QF Onwards",
+    "Coefficient": 60
+  }
+]

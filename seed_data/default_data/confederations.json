@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "Name": "FIFA"
+  },
+  {
+    "Id": 2,
+    "Name": "AFC"
+  },
+  {
+    "Id": 3,
+    "Name": "CAF"
+  },
+  {
+    "Id": 4,
+    "Name": "CONCACAF"
+  },
+  {
+    "Id": 5,
+    "Name": "CONMEBOL"
+  },
+  {
+    "Id": 6,
+    "Name": "OFC"
+  },
+  {
+    "Id": 7,
+    "Name": "UEFA"
+  }
+]
