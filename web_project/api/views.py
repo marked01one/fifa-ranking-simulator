@@ -43,11 +43,12 @@ class CountryViewSet(viewsets.ViewSet):
   @action(detail=False, url_path='confederation')
   def countries_by_confederation(self, request):
     conf_id = request.query_params['id']
+    # Return all countries, since confederation ID of 1 belongs to FIFA
     if conf_id == '1':
       country_queryset = Country.objects.all()
     else:
       country_queryset = Country.objects.filter(confederation=conf_id)
-      
+    # Get the confederation name and ID  
     confederation_data = Confederation.objects.filter(id=int(conf_id))
     
     country_serial = CountrySerializer(country_queryset, many=True)

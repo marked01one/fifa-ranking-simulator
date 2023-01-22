@@ -13,7 +13,6 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from email.mime import base
 from rest_framework import routers
 from django.urls import include, path
 from api import views
@@ -26,8 +25,6 @@ router = routers.DefaultRouter()
 router.register('users', views.UserViewSet)
 router.register('groups', views.GroupViewSet)
 router.register('countries', views.CountryViewSet, basename='Country')
-# router.register('countries/retrieve_conf/<int:pk>', views.CountryViewSet.as_view({'get': 'retrieve_confederation'}), basename='Country')
-# router.register('countries/retrieve_by_fifa/<str:pk>', views.CountryViewSet.as_view({'get': 'retrieve_country_by_fifa_code'}), basename='Country')
 router.register('confederations', views.ConfederationViewSet)
 
 urlpatterns = [
